@@ -1,0 +1,29 @@
+# Local configuration
+.env
+.env.*
+!.env.example
+
+# Python
+.venv/
+venv/
+__pycache__/
+*.py[cod]
+*.egg-info/
+build/
+dist/
+
+# Generated media and working files
+ad_output/
+*.mp3
+*.wav
+*.mp4
+*.png
+concat_list.txt
+concat_video_only_list.txt
+frame_extract_tmp/
+
+# Editors and OS files
+.vscode/
+.idea/
+.DS_Store
+__MACOSX/
